@@ -6,15 +6,17 @@ div {
   /* background-image: url("../007_tag_attributes/02_image_element/puppy.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
-  display: inline-block;
+  display: none;
 }
 
 img {
-  height: 100px;
+  /* height: 100px; */
+  width: 400px;
   padding: 20px;
-  margin: 20px;
+  /* margin: 20px; */
   border: 10px groove orangered;
-  border-radius: 100%;
+  /* border-radius: 100%; */
+  box-sizing: border-box;
 }
 
 .dogone {
