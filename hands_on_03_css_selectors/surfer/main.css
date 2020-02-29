@@ -1,0 +1,41 @@
+body {
+  background-color: #00539F;
+}
+
+article {
+  width: 40%;
+  background-color: #00C957;
+  margin: 0 auto;
+  border: 5px solid black;
+}
+
+.surfer-image {
+  height: 400px;
+  border-radius: 100%;
+  width: inherit;
+  background-image: url("surfer.jpeg");
+  background-size: cover;
+  padding: 50px 100px;
+  box-sizing: border-box;
+  border: 20px groove gold;
+}
+
+.image-container {
+  padding: 50px 100px
+}
+
+.surfer-info {
+  padding: 20px;
+}
+
+.surfer-info #header-001 {
+  color: #0266C8;
+}
+
+.surfer-info #header-002 {
+  color: #F90101;
+}
+
+.surfer-info #header-003 {
+  color: white;
+}
