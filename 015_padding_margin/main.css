@@ -1,0 +1,30 @@
+div {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  border-radius: 10%;
+  /* background-image: url("../007_tag_attributes/02_image_element/puppy.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+img {
+  height: 100px;
+  padding: 20px;
+  margin: 20px;
+  border: 10px groove orangered;
+  border-radius: 100%;
+}
+
+.dogone {
+  border: 10px dashed orangered;
+}
+
+.dogtwo {
+  border: 10px dotted orangered;
+}
+
+.dogthree {
+  border: 10px double orangered;
+}
