@@ -1,0 +1,20 @@
+p {
+  font-size: 2rem;
+  font-family: sans-serif;
+  text-indent: 4rem;
+}
+
+.first{
+  font-family: Oxanium;
+  font-weight: 300;
+}
+
+.second{
+  font-family: Oxanium;
+  font-weight: 400;
+}
+
+.third{
+  font-family: Oxanium;
+  font-weight: 700;
+}
