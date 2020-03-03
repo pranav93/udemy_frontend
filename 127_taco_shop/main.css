@@ -1,0 +1,19 @@
+body {
+  width: 50%;
+  margin: 5% auto;
+}
+
+.navigation {
+  display: inline-block;
+  vertical-align: top;
+  width: 24%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main_article {
+  display: inline-block;
+  width: 75%;
+  box-sizing: border-box;
+}
