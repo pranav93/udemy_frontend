@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  flex-flow: column wrap-reverse;
+  height: 900px;
+  align-content: flex-start;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  background-color: lightgrey;
+  border: 1px black solid;
+  margin: 10px;
+  text-align: center;
+}

@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  height: 900px;
+  flex-flow: row nowrap;
+  align-content: flex-start;
+}
+
+div {
+  height: 200px;
+  width: 400px;
+  background-color: lightgrey;
+  border: 1px black solid;
+  margin: 10px;
+  text-align: center;
+}
+
+.two {
+  flex-shrink: 2;
+}
+
+.one {
+  flex-shrink: 1;
+}

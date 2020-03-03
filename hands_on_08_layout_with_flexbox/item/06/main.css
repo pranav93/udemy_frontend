@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  height: 900px;
+  flex-flow: row nowrap;
+  align-content: flex-start;
+}
+
+div {
+  height: 200px;
+  background-color: lightgrey;
+  border: 1px black solid;
+  margin: 10px;
+  text-align: center;
+}
+
+.two {
+  width: 400px;
+  flex: 2 2 auto;
+  align-self: flex-end;
+}
+
+.one {
+  width: 200px;
+  flex: 2 2 auto;
+  flex-shrink: 1;
+}
