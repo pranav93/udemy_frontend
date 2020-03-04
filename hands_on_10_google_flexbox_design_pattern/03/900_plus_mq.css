@@ -1,0 +1,19 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.div1 {
+  order: 3;
+  width: 100%;
+}
+
+.div2, .div3 {
+  order: 2;
+  width: 50%;
+}
+
+.div4, .div5, .div6, .div7 {
+  order: 1;
+  width: 25%;
+}

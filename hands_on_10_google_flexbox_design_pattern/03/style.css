@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+div {
+  height: 300px;
+}
+
+.div1 {
+  background-image: url("images/1.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div2 {
+  background-image: url("images/2.jpg");
+  background-position: center auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div3 {
+  background-image: url("images/3.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div4 {
+  background-image: url("images/4.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div5 {
+  background-image: url("images/5.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div6 {
+  background-image: url("images/6.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div7 {
+  background-image: url("images/7.jpeg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div1, .div2, .div3, .div4, .div5, .div6, .div7 {
+  width: 100%;
+}

@@ -1,0 +1,11 @@
+.div1, .div4, .div7 {
+  width: 100%;
+}
+
+.div2, .div3 {
+  width: 50%;
+}
+
+.div5, .div6 {
+  width: 50%;
+}

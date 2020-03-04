@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+div {
+  height: 100px;
+}
+
+.div1 {
+  background-color: #DAF7A6;
+}
+
+.div2 {
+  background-color: #FFC300;
+}
+
+.div3 {
+  background-color: #FF5733;
+}
+
+.div4 {
+  background-color: #C70039;
+}
+
+.div5 {
+  background-color: #581845;
+}
+
+.div6 {
+  background-color: #7A91D4;
+}
+
+.div7 {
+  background-color: #7AD480;
+}
+
+.div1, .div2, .div3, .div4, .div5, .div6, .div7 {
+  width: 100%;
+}
