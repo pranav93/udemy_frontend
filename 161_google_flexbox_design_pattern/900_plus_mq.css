@@ -1,0 +1,12 @@
+body {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.div1, .div3 {
+  width: 15%;
+}
+
+.div2 {
+  width: 70%;
+}

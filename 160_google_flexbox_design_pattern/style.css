@@ -1,0 +1,23 @@
+.div1 {
+  background-color: #032cfc;
+}
+
+.div2 {
+  background-color: #03adfc;
+}
+
+.div3 {
+  background-color: #ff0000;
+}
+
+.div4 {
+  background-color: #03fcf0;
+}
+
+.div5 {
+  background-color: #03fca5;
+}
+
+.div1, .div2, .div3, .div4, .div5 {
+  height: 100px;
+}

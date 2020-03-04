@@ -1,0 +1,15 @@
+.div1 {
+  background-color: #032cfc;
+}
+
+.div2 {
+  background-color: #03adfc;
+}
+
+.div3 {
+  background-color: #ff0000;
+}
+
+.div1, .div2, .div3 {
+  height: 100px;
+}

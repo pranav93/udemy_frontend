@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.div1 {
+  width: 40%;
+}
+
+.div2 {
+  width: 60%;
+}
+
+.div3 {
+  width: 100%;
+}

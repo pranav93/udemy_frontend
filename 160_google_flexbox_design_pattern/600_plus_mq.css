@@ -1,0 +1,12 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.div1 {
+  width: 100%;
+}
+
+.div2, .div3, .div4, .div5 {
+  width: 50%;
+}

@@ -1,0 +1,16 @@
+body {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.div1 {
+  width: 60%;
+}
+
+.div2 {
+  width: 40%;
+}
+
+.div3, .div4, .div5 {
+  width: 33.33%;
+}
