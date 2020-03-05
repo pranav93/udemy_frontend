@@ -1,0 +1,19 @@
+body, nav, article, div {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2rem;
+  width: 70%;
+}
+
+nav {
+  float: left;
+  width: 14%;
+}
+
+main {
+  float: right;
+  width: 84%;
+}
