@@ -1,0 +1,17 @@
+body {
+  width: 60%;
+  margin: 0 auto;
+}
+
+nav {
+  width: 20%;
+}
+
+main {
+  width: 80%;
+}
+
+ul {
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}

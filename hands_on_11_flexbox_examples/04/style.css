@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: 600;
+}
+
+header {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  background-color: orangered;
+  text-transform: capitalize;
+}
+
+article {
+  width: 100%;
+  padding: 1rem;
+  background-color: deepskyblue;
+}
+
+aside {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.aside1 {
+  background-color: yellow;
+}
+
+.aside2 {
+  background-color: deeppink;
+}
+
+footer {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  background-color: lightgreen;
+  text-transform: capitalize;
+}
+
+div {
+  margin-bottom: 10px;
+}

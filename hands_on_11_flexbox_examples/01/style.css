@@ -1,0 +1,21 @@
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: deepskyblue;
+}
+
+li {
+  width: 100%;
+  border-bottom: 1px whitesmoke solid;
+  text-align: center;
+  list-style: none;
+}
+
+a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  font-weight: 600;
+}
