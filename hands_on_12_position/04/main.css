@@ -1,0 +1,21 @@
+body {
+  position: relative;
+  width: 60%;
+  height: 400px;
+  margin: 0 auto;
+  /* border: 1px black solid; */
+}
+
+nav {
+  position: absolute;
+  left: 0;
+  width: 150px;
+  height: inherit;
+  border: 2px red solid;
+}
+
+article {
+  margin-left: 150px;
+  height: inherit;
+  border: 2px black solid;
+}
