@@ -1,0 +1,15 @@
+#idx-atf {
+  background-image: url("img/background-photo.jpg");
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2, h3, button {
+  font-size: 1.4rem;
+}
+
+.idx-center>h1, .idx-center>div {
+  padding-bottom: 2rem;
+}
