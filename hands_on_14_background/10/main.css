@@ -1,0 +1,19 @@
+body {
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.img {
+  background-image: url("images/dog.png");
+  width: 600px;
+  height: 100vh;
+  background-color: blue;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-size: contain;
+  border: 20px solid black;
+  padding: 30px;
+  color: white;
+  margin: 10px auto;
+}
