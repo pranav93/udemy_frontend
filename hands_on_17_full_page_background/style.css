@@ -1,0 +1,139 @@
+body {
+  color: whitesmoke;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+header {
+  height: 2.7rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  height: 80%;
+  margin: 0 auto;
+}
+
+.right {
+  display: none;
+}
+
+header div a svg {
+  display: none;
+}
+
+header h1 {
+  font-size: 1rem;
+  text-transform: none;
+}
+
+header a {
+  height: 100%;
+  text-decoration: none;
+  color: currentColor;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+header a:hover {
+  color: #2e4f41;
+}
+
+#idx-atf {
+  display: flex;
+  min-height: 500px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgray;
+  background-image: url("img/background-photo-mobile-devices.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.idx-atf > div {
+  height: 18vh;
+}
+
+.idx-center {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+h1, h2, h3 {
+  font-family: 'Cantarell', serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+h2, h3 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.idx-center>h1, .idx-center>div {
+  padding-bottom: 3rem;
+}
+
+button {
+  text-transform: uppercase;
+  align-self: center;
+  font-family: 'Cantarell', serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: inherit;
+  border: 1px whitesmoke solid;
+  border-radius: 5px;
+  padding: 0.7rem 1.2rem;
+}
+
+.idx-header-svg {
+  fill: currentColor;
+  width: 2rem;
+  height: 100%;
+}
+
+.nav-mob ol li a {
+  height: 3rem;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem 0;
+  background-color: #0050ffc7;
+  color: currentColor;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav-mob ol li:last-child a {
+  border-bottom: none;
+}
+
+.nav-mob ol li a:hover {
+  background-color: royalblue;
+}
+
+.nav-mob ol li a svg {
+  padding-left: 10%;
+  margin-right: 10%;
+}
+
+.nav-mob ol li a h1 {
+  font-size: 1rem;
+  margin-left: 10%;
+}

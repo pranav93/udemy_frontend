@@ -1,0 +1,44 @@
+header {
+  justify-content: space-between;
+}
+
+.left, .right {
+  height: 80%;
+  margin: 0 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.idx-header-svg:hover {
+  fill: #2e4f41;
+}
+
+header h1 {
+  padding-left: 1rem;
+}
+
+header div a svg {
+  display: inline;
+}
+
+#idx-atf {
+  background-image: url("img/background-photo.jpg");
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2, h3, button {
+  font-size: 1.4rem;
+}
+
+.idx-center>h1, .idx-center>div {
+  padding-bottom: 2rem;
+}
+
+.nav-mob {
+  display: none;
+}
