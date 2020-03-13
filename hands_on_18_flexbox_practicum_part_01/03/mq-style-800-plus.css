@@ -1,5 +1,6 @@
 nav {
   justify-content: space-between;
+  font-size: 28rem;
 }
 
 .left {
@@ -10,7 +11,7 @@ nav {
 .idx-header-svg {
   height: 3rem;
   width: 5rem;
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
 }
 
 .right {
@@ -24,13 +25,17 @@ nav {
   display: block;
   height: 3rem;
   padding: 0 1rem;
+  margin: 0.5rem 1rem;
+}
+
+.left button:first-child {
+  padding: 0;
 }
 
 .left a, .right a {
   cursor: pointer;
-  margin: 0.5rem 1rem;
 }
 
-.right a {
+.right button {
   width: 50%;
 }
