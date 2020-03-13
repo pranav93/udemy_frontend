@@ -1,0 +1,11 @@
+body, header, nav, div, main, button, a, svg {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}

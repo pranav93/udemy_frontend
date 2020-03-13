@@ -1,0 +1,79 @@
+body {
+  font-family: 'Cantarell', serif;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100vh;
+  text-align: center;
+  color: whitesmoke;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background: #808080;
+}
+
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.left, .right {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.left {
+  width: 80%;
+}
+
+.right {
+  width: 20%;
+}
+
+.idx-header-svg {
+  height: 4rem;
+  width: 100%;
+}
+
+.left a, .right a {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.left a {
+  width: 25%;
+}
+
+.right a {
+  width: 100%;
+}
+
+.left button, .right button {
+  display: block;
+  height: 4rem;
+  width: 100%;
+  color: currentColor;
+  background-color: transparent;
+  border: none;
+}
+
+.left button:hover, .right button:hover, .idx-header-svg:hover {
+  cursor: pointer;
+  background-color: #d3d3d3;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+main {
+  width: 80%;
+  margin: 20vh auto;
+}
+
+main div {
+  font-size: 6rem;
+  color: #b4b4b4;
+  text-transform: uppercase;
+}
