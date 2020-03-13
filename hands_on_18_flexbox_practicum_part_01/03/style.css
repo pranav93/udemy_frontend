@@ -9,7 +9,7 @@ body {
 
 header {
   position: fixed;
-  height: 5rem;
+  height: 4rem;
   width: 100%;
   display: flex;
   flex-flow: row nowrap;
@@ -39,6 +39,7 @@ nav {
 .idx-header-svg {
   height: 4rem;
   width: 100%;
+  fill: currentColor;
 }
 
 .left button, .right button {
