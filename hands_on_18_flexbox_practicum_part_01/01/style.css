@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  height: 100vh;
+  font-size: 5vh;
+  font-family: 'Cantarell', serif;
+  text-align: center;
+}
+
+main {
+  height: 10rem;
+  width: 40%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10rem auto;
+  box-sizing: border-box;
+}
+
+.minus, .plus {
+  padding: 3rem;
+  flex-grow: 1;
+  background-color: skyblue;
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+
+.minus:hover, .plus:hover {
+  background-color: blueviolet;
+}
+
+.minus {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.plus {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.num {
+  padding: 3rem 6rem;
+  flex-grow: 2;
+  border-top: 1px solid blue;
+  border-bottom: 1px solid blue;
+}
