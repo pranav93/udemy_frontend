@@ -80,3 +80,9 @@ main div {
   color: #b4b4b4;
   text-transform: uppercase;
 }
+
+.idx-main-svg {
+  height: 30vh;
+  width: 100%;
+  fill: deeppink;
+}
