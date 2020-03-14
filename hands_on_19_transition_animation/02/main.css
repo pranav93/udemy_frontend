@@ -1,0 +1,32 @@
+body, p{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 1rem;
+  color: red;
+
+  animation-name: zoominout;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes zoominout {
+  0% {
+    font-size: 1rem;
+    color: red;
+  }
+  100% {
+    font-size: 20rem;
+    color: yellow;
+  }
+}
