@@ -1,0 +1,48 @@
+body, main, div, svg {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  color: #85969c;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  padding: 3rem;
+  margin: auto 20rem;
+  border: 1px solid #c3d7df;
+  border-radius: 1rem;
+}
+
+.outer-div {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #c3d7df;
+}
+
+.outer-div:last-child {
+  border-bottom: none;
+}
+
+.outer-div div {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+svg {
+  width: 10rem;
+  fill: #bbd2db;
+}
