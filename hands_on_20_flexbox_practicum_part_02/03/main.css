@@ -1,0 +1,48 @@
+body, main, div, h1, p, button {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  color: #85969c;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  margin: 0 10%;
+  flex-flow: column nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  fill: #bbd2db;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+button {
+  background-color: #48bae6;
+  color: white;
+  border-radius: 4%;
+  padding: 1rem 2.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 1rem 0;
+}
