@@ -1,0 +1,84 @@
+body, main, footer, div, span, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  color: #85969c;
+}
+
+body {
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  height: 100vh;
+  font-size: 10vh;
+  font-weight: 900;
+  border-bottom: 1px solid currentColor;
+  margin: auto 2rem;
+}
+
+p {
+  margin: auto 5rem;
+}
+
+footer {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: auto 7rem;
+  font-size: 5vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progress {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.progress > svg {
+  width: 9.5vh;
+  height: 9.5vh;
+  fill: currentColor;
+  margin: 0 1rem;
+  animation-name: spinner-animation;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spinner-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.progress > span {
+  margin: 0 1rem;
+}
+
+.actions button {
+  font-size: 5vh;
+  padding: 1rem 1.5rem;
+  margin: 1rem;
+  cursor: pointer;
+  border-radius: 3%;
+}
+
+#reset {
+  color: #48bae6;
+  background-color: transparent;
+}
+
+#save {
+  color: white;
+  background-color: #48bae6;
+}
