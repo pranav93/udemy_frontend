@@ -1,0 +1,44 @@
+body, header, nav, div {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  color: #00a1d9;
+}
+
+header {
+  position: fixed;
+}
+
+nav {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  height: 100vh;
+  border-right: 1px solid #d7dbdd;
+  font-size: 2rem;
+  overflow-y: auto;
+}
+
+.options {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.options > div:first-child {
+  margin-top: 2rem;
+}
+
+.options div, .legal {
+  padding: 1rem 4rem 1rem 2rem;
+}
+
+.legal {
+  margin-bottom: 2rem;
+}
+
+header nav .options div:hover, .legal:hover {
+  background-color: #eef3f5;
+}
+
+/* #eef3f5 */
