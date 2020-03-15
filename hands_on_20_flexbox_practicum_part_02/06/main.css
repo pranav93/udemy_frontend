@@ -1,0 +1,47 @@
+body, main, div, svg {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #56727c;
+}
+
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  border: 1px solid #cad0d2;
+  border-radius: 2%;
+}
+
+.item {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+svg {
+  height: 18rem;
+  padding: 0 2rem;
+  fill: #bbd2db;
+}
+
+.cost {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #cad0d2;
+  background-color: #eef3f5;
+  font-size: 1.8rem;
+  font-weight: 900;
+  padding: 1.5rem 0;
+}
