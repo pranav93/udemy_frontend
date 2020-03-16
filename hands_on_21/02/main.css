@@ -1,0 +1,50 @@
+html, body, input, label, ol, li, nav {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 2rem 0 0 1rem;
+  padding: 1rem;
+}
+
+#chkbox {
+  display: none;
+}
+
+#btn {
+  padding: 0.5rem 2rem;
+  background-color: hotpink;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+nav {
+  top: 0;
+  left: -50rem;
+  position: fixed;
+  padding-top: 7rem;
+  background-color: pink;
+  height: 100vh;
+  width: 10rem;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
+}
+
+#chkbox:checked ~ nav {
+  left: 0;
+}
+
+ol {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  display: block;
+}
