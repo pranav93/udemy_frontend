@@ -1,0 +1,54 @@
+html, body, header, div, nav, main {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  height: 3rem;
+  width: 100%;
+  background-color: rgba(255, 105, 180, 0.5);
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+
+  /* border: 5px solid hotpink; */
+}
+
+header > div, nav {
+  height: 70%;
+  width: 5rem;
+  background-color: pink;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#atf {
+  height: 100vh;
+  background-image: url("seagull.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#atf > div {
+  font-size: 5rem;
+}
+
+#atf + div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  color: red;
+  font-family: 'Nosifer', cursive;
+}
