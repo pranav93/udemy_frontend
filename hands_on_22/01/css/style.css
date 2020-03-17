@@ -1,0 +1,112 @@
+body {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+header {
+  /* size */
+  height: 5rem;
+
+  /* display */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* content size */
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+main {
+  /* size */
+  height: 34rem;
+
+  /* image */
+  background-image: url("../images/fam_blur_under_600_web_medium.jpg");
+  background-size: cover;
+  background-position: center;
+
+  /* display */
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rem 0;
+
+  box-sizing: border-box;
+}
+
+main > h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+}
+
+main h2 {
+  font-size: 1.3rem;
+  text-align: center;
+  color: white;
+  margin: 0 3rem;
+}
+
+button {
+  width: 14rem;
+  background: red;
+  color: white;
+  padding: 0.7rem 0;
+
+  align-self: center;
+}
+
+article {
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  margin: 0.5rem 5rem;
+}
+
+article > h1 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+article section {
+  margin: 1rem 0;
+}
+
+article section p {
+  margin-top: 0.8rem;
+}
+
+article button {
+  margin: 1rem 0;
+}
+
+article section h2 {
+  font-size: 1.6rem;
+}
+
+#rdn-ways ol {
+  list-style-type: decimal;
+  margin-left: 1rem;
+}
+
+#rdn-ways ol li {
+  margin-top: 1rem;
+}
+
+article a {
+  align-self: flex-end;
+  font-size: 0.9rem;
+}
+
+article a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+hr {
+  border-bottom: 1px solid black;
+  margin: 2rem 6rem;
+}
