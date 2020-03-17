@@ -1,9 +1,16 @@
 body {
   display: flex;
   flex-flow: column nowrap;
+  color: #484848;
+}
+
+p, li {
+  color: #8e8e8e;
 }
 
 header {
+  font-family: 'Raleway', sans-serif;
+
   /* size */
   height: 5rem;
 
@@ -13,7 +20,7 @@ header {
   align-items: center;
 
   /* content size */
-  font-size: 2rem;
+  font-size: 2.3rem;
   text-transform: uppercase;
 }
 
@@ -79,6 +86,32 @@ article section p {
   margin-top: 0.8rem;
 }
 
+article section table {
+  margin-top: 10px;
+}
+
+td, th {
+  border: 1px solid #484848;
+  border-style: inset;
+  padding: 0.4rem;
+}
+
+thead {
+  background: #c0c0c0;
+}
+
+th, td:first-child {
+  font-weight: 600;
+}
+
+td:only-child {
+  font-weight: 500;
+}
+
+tbody > tr:nth-child(2n+1) {
+  background: #d0d0d0;
+}
+
 article button {
   margin: 1rem 0;
 }
@@ -107,7 +140,7 @@ article a:hover {
 }
 
 hr {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid currentColor;
   margin: 2rem 6rem;
 }
 
