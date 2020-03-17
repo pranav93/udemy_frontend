@@ -1,11 +1,22 @@
 body {
   display: flex;
   flex-flow: column nowrap;
-  color: #484848;
+  color: #8E8E8E;
+  font-family: 'Open Sans', sans-serif;
 }
 
-p, li {
-  color: #8e8e8e;
+table {
+  color: #4d4d4d;
+  font-size: 14px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 19px;
+}
+
+h1, h2 {
+  color: #484848;
 }
 
 header {
@@ -44,9 +55,10 @@ main {
 }
 
 main > h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 900;
   color: white;
+  font-family: 'Alice', serif;
 }
 
 main h2 {
@@ -54,6 +66,7 @@ main h2 {
   text-align: center;
   color: white;
   margin: 0 3rem;
+  line-height: 2.3rem;
 }
 
 button {
@@ -61,6 +74,7 @@ button {
   background: red;
   color: white;
   padding: 0.7rem 0;
+  font-size: 0.9rem;
 
   align-self: center;
 }
@@ -76,6 +90,7 @@ article > h1 {
   font-size: 1.6rem;
   text-transform: uppercase;
   text-decoration: underline;
+  font-family: 'Alice', serif;
 }
 
 article section {
@@ -118,6 +133,7 @@ article button {
 
 article section h2 {
   font-size: 1.6rem;
+  font-family: 'Alice', serif;
 }
 
 #rdn-ways ol {
