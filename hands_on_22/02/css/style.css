@@ -69,6 +69,10 @@ main {
   font-size: 4.5rem;
 }
 
+.slogan:hover {
+  color: red;
+}
+
 footer {
   display: flex;
   flex-flow: column nowrap;
@@ -114,7 +118,8 @@ footer .footer-btn {
   height: 3rem;
   justify-content: center;
   align-items: center;
-  color: rgba(255, 255, 255, 0.5)
+  color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
 }
 
 footer .footer-btn:hover {
