@@ -40,3 +40,10 @@ header button {
 #rdn-ways {
   margin: 0 10%;
 }
+
+.footer-img {
+  background-image: url("../images/us_left_web_30.jpg");
+  background-position: top;
+  height: 30rem;
+  background-size: cover;
+}
