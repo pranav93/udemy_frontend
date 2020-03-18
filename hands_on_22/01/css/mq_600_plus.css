@@ -1,0 +1,19 @@
+#rdn-ways {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#rdn-ways h2 {
+  width: 100%;
+}
+
+#rdn-ways div {
+  width: 50%;
+}
+
+#rdn-ways div+div {
+  display: block;
+  background-image: url("../images/radon_house.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}

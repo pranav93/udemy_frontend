@@ -1,0 +1,42 @@
+header {
+  flex-flow: row wrap;
+
+  height: 10rem;
+}
+
+header h1 {
+  width: 100%;
+  text-align: center;
+}
+
+header nav {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+header hr {
+  width: 100%;
+  margin: 2rem 3rem;
+  border-width: 0;
+  border-bottom: 1px solid black;
+}
+
+header ol {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+header button {
+  background: #f6f6f6;
+  color: #484848;
+  width: auto;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+#rdn-ways {
+  margin: 0 10%;
+}
